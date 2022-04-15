@@ -6,6 +6,8 @@ public class Main {
 
         game.setPieceCoordinate(pawn);
 
+        System.out.println(game);
+
         pawn.move(game, 2, 2);
 
         System.out.println(game);
